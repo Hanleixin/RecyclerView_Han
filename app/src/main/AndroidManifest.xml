@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bwei.recyclerview_han">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--新注册的Activity-->
+        <activity android:name=".activity.SimpleActivity"/><!--新注册的Activity-->
+        <activity android:name=".activity.WaterWallActivity"/><!--瀑布流Activity-->
+        <activity android:name=".activity.MoreItemActivity"/><!--多条目的Activity-->
+        <activity android:name=".activity.RemoveActivity"/><!--滑动删除Activity-->
+        <activity android:name=".activity.RefreshActivity"/><!--上拉刷新……Activity-->
+
+    </application>
+
+</manifest>
